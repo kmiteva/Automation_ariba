@@ -15,7 +15,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11268142615,
+              "duration": 10195433280,
               "status": "passed"
             },
             "name": "The bueyer goes to the ws",
@@ -27,7 +27,7 @@
           },
           {
             "result": {
-              "duration": 5319254741,
+              "duration": 4195093313,
               "status": "passed"
             },
             "name": "The bueyer tries to log in",
@@ -39,7 +39,7 @@
           },
           {
             "result": {
-              "duration": 50674,
+              "duration": 21168,
               "status": "passed"
             },
             "name": "he goes to inbox",
@@ -51,7 +51,7 @@
           },
           {
             "result": {
-              "duration": 32393,
+              "duration": 20847,
               "status": "passed"
             },
             "name": "all invoices are displayed",
@@ -73,7 +73,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8206535771,
+              "duration": 9170662189,
               "status": "passed"
             },
             "name": "The bueyer goes to the ws",
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 403683960,
+              "duration": 454575428,
               "status": "passed"
             },
             "name": "The bueyer tries to log in with incorrect credentials",
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 1068306120,
+              "duration": 1077444500,
               "status": "passed"
             },
             "name": "He is not successfully login",
@@ -119,7 +119,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10479046642,
+              "duration": 9090218602,
               "status": "passed"
             },
             "name": "The bueyer goes to the ws",
@@ -131,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 4190209013,
+              "duration": 3665995499,
               "status": "passed"
             },
             "name": "The bueyer tries to log in",
@@ -143,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 1034640080,
+              "duration": 1195408905,
               "status": "passed"
             },
             "name": "He is successfully login",
