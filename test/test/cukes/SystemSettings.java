@@ -14,6 +14,8 @@ public class SystemSettings {
 
 	public String getSuccessfull_credential() {
 		return successfull_credential;
+		
+		
 	}
 	public void setSuccessfull_credential(String successfull_credential) {
 		this.successfull_credential = successfull_credential;
