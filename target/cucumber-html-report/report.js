@@ -38,28 +38,28 @@ formatter.match({
   "location": "ProgramTestSteps.The_bueyer_goes_to_the_ws()"
 });
 formatter.result({
-  "duration": 11268142615,
+  "duration": 10195433280,
   "status": "passed"
 });
 formatter.match({
   "location": "ProgramTestSteps.The_bueyer_tries_to_log_in()"
 });
 formatter.result({
-  "duration": 5319254741,
+  "duration": 4195093313,
   "status": "passed"
 });
 formatter.match({
   "location": "ProgramTestSteps.he_goes_to_inbox()"
 });
 formatter.result({
-  "duration": 50674,
+  "duration": 21168,
   "status": "passed"
 });
 formatter.match({
   "location": "ProgramTestSteps.all_invoices_are_displayed()"
 });
 formatter.result({
-  "duration": 32393,
+  "duration": 20847,
   "status": "passed"
 });
 formatter.scenario({
@@ -89,21 +89,21 @@ formatter.match({
   "location": "ProgramTestSteps.The_bueyer_goes_to_the_ws()"
 });
 formatter.result({
-  "duration": 8206535771,
+  "duration": 9170662189,
   "status": "passed"
 });
 formatter.match({
   "location": "ProgramTestSteps.The_bueyer_tries_to_log_in_with_incorrect_credentials()"
 });
 formatter.result({
-  "duration": 403683960,
+  "duration": 454575428,
   "status": "passed"
 });
 formatter.match({
   "location": "ProgramTestSteps.He_is_not_successfully_login()"
 });
 formatter.result({
-  "duration": 1068306120,
+  "duration": 1077444500,
   "status": "passed"
 });
 formatter.scenario({
@@ -133,21 +133,21 @@ formatter.match({
   "location": "ProgramTestSteps.The_bueyer_goes_to_the_ws()"
 });
 formatter.result({
-  "duration": 10479046642,
+  "duration": 9090218602,
   "status": "passed"
 });
 formatter.match({
   "location": "ProgramTestSteps.The_bueyer_tries_to_log_in()"
 });
 formatter.result({
-  "duration": 4190209013,
+  "duration": 3665995499,
   "status": "passed"
 });
 formatter.match({
   "location": "ProgramTestSteps.He_is_successfully_login()"
 });
 formatter.result({
-  "duration": 1034640080,
+  "duration": 1195408905,
   "status": "passed"
 });
 });
