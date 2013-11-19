@@ -1,0 +1,197 @@
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: cucumber.runtime.formatter.JUnitFormatter</title>
+<link rel="stylesheet" type="text/css" title="Style" href="../../../stylesheet.css">
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style type=\"text/css\">");
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+</head>
+<body>
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h3>Class cucumber.runtime.formatter.JUnitFormatter</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="Failure">
+<td><a title="Display all tests" href="0_JUnitFormatter.html">JUnitFormatter</a></td><td><a title="Display all tests" href="0_JUnitFormatter.html">1</a></td><td></td><td><a title="Display only failures" href="0_JUnitFormatter-fails.html">1</a></td><td>0.060</td><td></td><td></td>
+</tr>
+</table>
+<h2>Failures</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Failure">
+<td><a name="The buyer is successfully login"></a>The buyer is successfully login</td><td>Failure</td><td>java.lang.NoClassDefFoundError: com/google/common/base/Function&#13;
+	at test.cukes.ProgramTestSteps.&lt;init&gt;(Unknown Source)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)&#13;
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)&#13;
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)&#13;
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)&#13;
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)&#13;
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)&#13;
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)&#13;
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:698)&#13;
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:646)&#13;
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:677)&#13;
+	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:35)&#13;
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)&#13;
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)&#13;
+	at cucumber.runtime.Runtime.runStep(Runtime.java:289)&#13;
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)&#13;
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:116)&#13;
+	at cucumber.runtime.Runtime.run(Runtime.java:120)&#13;
+	at cucumber.runtime.Runtime.run(Runtime.java:108)&#13;
+	at cucumber.api.cli.Main.run(Main.java:26)&#13;
+	at cucumber.api.cli.Main.main(Main.java:16)&#13;
+	at ✽.Given The bueyer goes to the ws(test_spec.feature:4)&#13;
+Caused by: java.lang.ClassNotFoundException: com.google.common.base.Function&#13;
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)&#13;
+	at java.security.AccessController.doPrivileged(Native Method)&#13;
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)&#13;
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)&#13;
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)&#13;
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)&#13;
+	at test.cukes.ProgramTestSteps.&lt;init&gt;(Unknown Source)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)&#13;
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)&#13;
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)&#13;
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)&#13;
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)&#13;
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)&#13;
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)&#13;
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:698)&#13;
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:646)&#13;
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:677)&#13;
+	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:35)&#13;
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)&#13;
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)&#13;
+	at cucumber.runtime.Runtime.runStep(Runtime.java:289)&#13;
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)&#13;
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:116)&#13;
+	at cucumber.runtime.Runtime.run(Runtime.java:120)&#13;
+	at cucumber.runtime.Runtime.run(Runtime.java:108)&#13;
+	at cucumber.api.cli.Main.run(Main.java:26)&#13;
+	at cucumber.api.cli.Main.main(Main.java:16)&#13;
+<br>
+<br>
+<code>Given The bueyer goes to the ws.............................................failed<br>When The bueyer tries to log in.............................................skipped<br>Then He is successfully login...............................................skipped<br>
+<br>StackTrace:<br>java.lang.NoClassDefFoundError: com/google/common/base/Function<br>
+<br>	at test.cukes.ProgramTestSteps.&lt;init&gt;(Unknown Source)<br>
+<br>	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>
+<br>	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)<br>
+<br>	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)<br>
+<br>	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)<br>
+<br>	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)<br>
+<br>	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)<br>
+<br>	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)<br>
+<br>	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)<br>
+<br>	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)<br>
+<br>	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)<br>
+<br>	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:698)<br>
+<br>	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:646)<br>
+<br>	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:677)<br>
+<br>	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:35)<br>
+<br>	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)<br>
+<br>	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)<br>
+<br>	at cucumber.runtime.Runtime.runStep(Runtime.java:289)<br>
+<br>	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)<br>
+<br>	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)<br>
+<br>	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)<br>
+<br>	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:116)<br>
+<br>	at cucumber.runtime.Runtime.run(Runtime.java:120)<br>
+<br>	at cucumber.runtime.Runtime.run(Runtime.java:108)<br>
+<br>	at cucumber.api.cli.Main.run(Main.java:26)<br>
+<br>	at cucumber.api.cli.Main.main(Main.java:16)<br>
+<br>	at ✽.Given The bueyer goes to the ws(test_spec.feature:4)<br>
+<br>Caused by: java.lang.ClassNotFoundException: com.google.common.base.Function<br>
+<br>	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)<br>
+<br>	at java.security.AccessController.doPrivileged(Native Method)<br>
+<br>	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)<br>
+<br>	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)<br>
+<br>	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)<br>
+<br>	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)<br>
+<br>	at test.cukes.ProgramTestSteps.&lt;init&gt;(Unknown Source)<br>
+<br>	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>
+<br>	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)<br>
+<br>	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)<br>
+<br>	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)<br>
+<br>	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)<br>
+<br>	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)<br>
+<br>	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)<br>
+<br>	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)<br>
+<br>	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)<br>
+<br>	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)<br>
+<br>	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:698)<br>
+<br>	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:646)<br>
+<br>	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:677)<br>
+<br>	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:35)<br>
+<br>	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)<br>
+<br>	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)<br>
+<br>	at cucumber.runtime.Runtime.runStep(Runtime.java:289)<br>
+<br>	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)<br>
+<br>	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)<br>
+<br>	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)<br>
+<br>	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:116)<br>
+<br>	at cucumber.runtime.Runtime.run(Runtime.java:120)<br>
+<br>	at cucumber.runtime.Runtime.run(Runtime.java:108)<br>
+<br>	at cucumber.api.cli.Main.run(Main.java:26)<br>
+<br>	at cucumber.api.cli.Main.main(Main.java:16)<br>
+<br>
+</code></td><td>0.060</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('cucumber.runtime.formatter.JUnitFormatter');">
+                    Properties &raquo;
+                </a>
+</div>
+</body>
+</html>
